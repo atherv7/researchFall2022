@@ -1,0 +1,58 @@
+------------------------------------------------------------------------------------------------
+African Newspaper 
+------------------------------------------------------------------------------------------------
+url: https://lib.guides.umd.edu/az.php
+
+link: /html/body/div[5]/section[2]/div/div[1]/div[3]/div/div[2]/div[16]/div[1]/a
+
+search: //*[@id="edit-val-base-0"]
+
+start: //*[@id="edit-date-from"]
+
+end: //*[@id="edit-date-to"]
+
+results: /html/body/div[2]/div[2]/div/div[5]/div/div/div/div[1]/div/div[3]/div/div[1]/div/span
+
+
+------------------------------------------------------------------------------------------------
+AnthroSource
+------------------------------------------------------------------------------------------------
+url: https://lib.guides.umd.edu/az.php
+
+link: /html/body/div[5]/section[2]/div/div[1]/div[3]/div/div[2]/div[46]/div[1]/a
+
+search: /html/body/div[3]/div/div[1]/header/div/div[3]/div/div/div[2]/div[1]/div/div/div/div/input
+
+start: //*[@id="timeFrame--from"]
+
+end: //*[@id="timeFrame--to"]
+
+results: /html/body/div[3]/div/div[2]/main/div[1]/div/div[2]/div/div/div[2]/div/div/div[1]/div/div[1]/span[1]
+
+------------------------------------------------------------------------------------------------
+BioOne 
+------------------------------------------------------------------------------------------------
+url: https://lib.guides.umd.edu/az.php
+
+link: /html/body/div[5]/section[2]/div/div[1]/div[3]/div/div[3]/div[15]/div[1]/a
+
+search: //*[@id="homePageSearchTerm"]
+
+start: //*[@id="searchYearSliderStart"]
+
+end: //*[@id="searchYearSliderEnd"]
+
+results: //*[@id="searchTopFilterTotalResults"]
+
+
+
+
+
+create a program that can scrape these three websites, and then you want the program to be able to scrape the website and every time you search for a cerain target word you should save the result, such that if you get kicked out the program can start from where it left off from after some time. 
+
+
+order of preference: 
+
+EconLit 
+IDEAS
+JSTOR 
